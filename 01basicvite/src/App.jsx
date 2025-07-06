@@ -1,9 +1,16 @@
 
 
-function App() {
+import Basketball from "./basketball"
 
+function App() {
+  const username = "kp & basketball + code"
   return (
-     <h1>Basketball aur react with vite | Khushi Parihar</h1>
+    <>
+     <Basketball />
+     <h1>Hey Khushi Parihar here!</h1>
+     <h3>from that variable {username}</h3>
+     <p>test para</p>
+     </>
   )
 }
 
