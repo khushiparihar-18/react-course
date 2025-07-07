@@ -11,11 +11,27 @@ function App() {
 
 //  let counter = 18
  const addValue = ()=>{
-  if(cnt < 20){
-  cnt += 1;
-  }
-  sC(cnt);
+  // if(cnt < 20){
+  // cnt += 1;
+  // }
+  // sC(cnt);
   // sC(cnt+1)
+  // sC(cnt+1)
+  // sC(cnt+1)
+  // sC(cnt+1)
+  // sC(cnt+1)
+  // sC(cnt+1)
+  // sC(cnt+1)
+  
+  // Yeah! We can do Like this but this isn't A Good Practice!:)
+  // sC((cn)=>cn+1)
+  // sC((cntr)=>cntr+1)
+  // sC((cnr)=>cnr+1)
+
+  // GOod Practice is Like This :
+  sC((cn)=>cn+1)
+  sC((cntr)=>cntr+1)
+  sC((cnr)=>cnr+1)
 
 }
   const removeValue = ()=>{
@@ -26,7 +42,7 @@ function App() {
     
  }
 
-
+ 
   return (
     <>
      <h1>Basketball aur React</h1>
